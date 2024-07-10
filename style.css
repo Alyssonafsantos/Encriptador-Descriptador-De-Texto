@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+overflow-x: hidden;
+}
+
+main{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.145);
+    height: 100vh;
+}
+
+.sessao__1__entrada{
+    padding-top: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:70vw;
+    padding-left: 10vw;
+}
+
+.sessao__1__logo{
+    position:relative;
+    left: -9vw;
+}
+
+.sessao__1__aviso{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width:50vw;
+}
+
+.sessao__1__paragrafo{
+    font-family:'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    gap:  1%;
+}
+
+.sessao__1__btn{
+    display:flex;
+    gap:1%;
+    margin-bottom:30px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.entrada__texto{
+    height: 50vh;
+    width: 50vw;
+    position: relative;
+    bottom: 10vh;
+}
+
+.entrada__texto__input{
+    width: 100%;
+    height: 100%;
+    margin-top:10vh;
+    padding: 20px 10px;
+    font-size: 24px;
+    border-radius:20px;
+    border: none;
+    outline: none;
+    background-color:rgba(0, 0, 0, 0.063);
+    font-family: inherit;
+}
+
+button{
+    border-radius: 20px;
+    font-size: 20px;
+    width: 100%;
+    height: 9vh;
+    border-color:#0A3871;
+    border: 1px solid;
+}
+
+.btn1, .btn__colar{
+    background-color:#0A3871;
+    color:aliceblue;
+}
+
+.btn2, .info__btn2{
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0 0 30px #0A3871;
+    transition-duration: 0.5s;
+}
+
+.sessao__2__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color:azure;
+    border-radius: 20px;
+    margin: 5vh 0;
+    width: 25vw;
+}
+
+.sessao__2__img{
+    display: block;
+    width: 100%;
+}
+
+.sessao__2__info__instrucao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:3vh;
+    align-items: center;
+}
+
+.sessao__2__observacao, .sessao__2__instrucao{
+    font-family:'Arial Narrow', Arial, sans-serif;
+}
+
+.sessao__3__info{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color:azure;
+    border-radius: 20px;
+    margin: 5vh 0;
+    width: 25vw;
+}
+
+.sessao__3__texto{
+    width: 100%;
+    height: 80%;
+}
+
+.sessao__3__btn{
+    width: 95%;
+    position: relative;
+    bottom: 1vw;
+}
+
+.sessao__3__resultado{
+        width: 100%;
+        height: 100%;
+        padding: 20px 10px;
+        font-size: 24px;
+        border-radius:20px;
+        background-color:azure;
+        font-family: inherit;
+        border: none;
+        outline: none;
+}
+
+.btn__colar{
+    display: none;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.footer__ancora{
+    text-decoration: none;
+    padding-right:50px;
+}
+
+footer{
+width:100vw;
+height:5vh;
+
+padding: 3px 0 0 10vw;
+background-color: rgba(0, 0, 0, 0.207);
+}
+
+.footer__btn__contato{
+    width:30px;
+    height:30px;
+}

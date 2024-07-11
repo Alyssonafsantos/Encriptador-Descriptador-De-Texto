@@ -222,6 +222,18 @@ background-color: rgba(0, 0, 0, 0.207);
 
     .exclamacao{
         width:10%;
-        height:10%;
+        height:10%
     }
+    .sessao__1__btn{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .sessao__1__logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
 }

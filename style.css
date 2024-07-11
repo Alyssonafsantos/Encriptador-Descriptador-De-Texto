@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 body{
-overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
+    
 }
 
 main{
@@ -170,9 +172,8 @@ button:hover{
 }
 
 footer{
-width:100vw;
+width:100%;
 height:5vh;
-
 padding: 3px 0 0 10vw;
 background-color: rgba(0, 0, 0, 0.207);
 }
@@ -180,4 +181,47 @@ background-color: rgba(0, 0, 0, 0.207);
 .footer__btn__contato{
     width:30px;
     height:30px;
+}
+@media screen and (max-width:600px){
+    body{
+        height: 100%;
+
+    }
+    main{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        height:100%;
+    }
+
+    .sessao__2__info{
+        width:50vw;
+        height: 60vh;
+    }
+
+    .sessao__2__info__instrucao{
+        text-align: center;
+    }
+
+    .sessao__3__info{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:50vw;
+    height: 50vh;
+    display:none;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .exclamacao{
+        width:10%;
+        height:20%
+    }
 }
